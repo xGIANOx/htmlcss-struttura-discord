@@ -3,3 +3,61 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.container{
+    width: 70%;
+    margin: auto;
+}
+
+.flex{
+    display: flex;
+}
+
+
+.debug#app_header{
+    background-color: blue;
+    height: 25rem;
+}
+
+.app_nav.debug{
+    background-color: orange;
+    justify-content: space-between;
+    border: 1px dashed black;
+    padding: 1rem;
+}
+
+.logo.debug{
+    border: 1px dashed black;
+    width: 25%;
+    padding: 0.5rem 0;
+}
+
+.menu.debug{
+    border: 1px dashed black;
+    width: 50%;
+    justify-content: center;
+    padding: 0.5rem 0;
+}
+
+.login.debug{
+width: 25%;
+border: 1px dashed black;
+justify-content: flex-end;
+padding: 0.5rem 0;
+}
+
+
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+ul{
+    list-style: none;
+    
+}
+
+li{
+    margin: 0 0.5rem;
+}
